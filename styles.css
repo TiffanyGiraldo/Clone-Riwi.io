@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.imagenLogo {
+    width: 200px;
+}
+
+.navegacionText {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+}
+
+.botonNavegacion a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.botonNavegacion {
+    background-color: #6b5cff;
+    transition: 0.7s background-color;
+    border-radius: 10px;
+    padding: 7px 24px;
+}
+
+.botonNavegacion:hover{
+    background-color: #4e3cf3;
+}
+
+.titulos{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.titulos h3 {
+    margin-top: 10px;
+    color: #9c9c9c;
+    font-weight: normal;
+    text-align: center;
+}
+
+main{
+    background-color: #F5F5FD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 500px;
+    padding: 42px;
+    border-radius: 15px;
+    gap: 30px;
+}
+
+.formulario label{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input, textarea{
+    border-radius: 8px;
+    border: 2px solid #333;
+    padding: 5px 20px;
+    width: 400px;
+    margin-top: 10px;
+}
